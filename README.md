@@ -58,8 +58,7 @@ src/
 │── App.jsx                        # Main App file
 │── index.css                      # Global styles
 │── main.jsx                       # React entry point
-
-
+```
 
 
 # Draft 1 of content for website

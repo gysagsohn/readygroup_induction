@@ -1,5 +1,3 @@
-# readygroup_induction
-
 # Ready Group Induction
 
 ## Project Overview
@@ -90,7 +88,15 @@ Ready Group is a leading provider of civil construction and excavation services,
 
 ---
 
-## 4. Company Objectives & Growth Plans
+
+## 4. Org Chart
+add image of org chart
+
+
+---
+
+
+## 5. Company Objectives & Growth Plans
 
 ### **Quality Objectives**
 - Provide an exceptional and reliable service.  
@@ -112,7 +118,7 @@ Ready Group is a leading provider of civil construction and excavation services,
 
 ---
 
-## 5. Employee Handbook & Workplace Policies
+## 6. Employee Handbook & Workplace Policies
 
 ### **Induction & Onboarding Process**
 - Employee Handbook  
@@ -134,7 +140,7 @@ Ready Group is a leading provider of civil construction and excavation services,
 
 ---
 
-## 6. Employee Benefits & Perks
+## 7. Employee Benefits & Perks
 
 ### **Training & Development**
 - Opportunities for skill enhancement.  
@@ -150,7 +156,7 @@ Ready Group is a leading provider of civil construction and excavation services,
 
 ---
 
-## 7. Company Culture & Community Involvement
+## 8. Company Culture & Community Involvement
 
 ### **Commitment to Equality & Belonging**
 - We foster a culture of inclusivity and gender diversity within our organization.  
@@ -164,7 +170,7 @@ Ready Group is a leading provider of civil construction and excavation services,
 
 ---
 
-## 8. Contact & Support
+## 9. Contact & Support
 
 For any support, reach out to HR and/or your direct manager.
 

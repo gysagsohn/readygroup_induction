@@ -1,0 +1,14 @@
+.logout-button {
+    position: fixed; /* ✅ Use fixed to keep it visible */
+    top: 20px;
+    right: 20px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    color: white;
+    background-color: var(--brand-secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    z-index: 1000; /* ✅ Ensure it's above everything */
+}

@@ -1,0 +1,19 @@
+/* Apply Flexbox to Center Everything */
+.page-container {
+    display: flex;
+    flex-direction: column; /* 🔹 Change from row to column */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 🔹 Ensures it takes full-page height */
+    width: 100%;
+    text-align: center;
+    background-color: var(--brand-background);
+    padding: 20px;
+}
+
+/* Ensure Body Takes Full Height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

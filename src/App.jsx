@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-
-const Home = () => <h1>Welcome to Ready Group Handbook</h1>;
+import ProtectedRoute from "./components/ProtectedRoute";
+import Home from "./pages/Home";
+import "./styles/Layout.css";
+import { isAuthenticated } from "./utils/auth";
 
 export default function App() {
+  const [auth, setAuth] = useState(false);
+
+  useEffect(() => {
+    setAuth(isAuthenticated());
+  }, []);
+
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<ProtectedRoute setAuth={setAuth}><Home /></ProtectedRoute>} />
     </Routes>
   );
 }

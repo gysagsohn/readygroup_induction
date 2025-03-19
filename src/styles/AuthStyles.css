@@ -1,0 +1,29 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    text-align: center;
+    background-color: var(--brand-background);
+    padding: 20px; /* Ensures content is not touching screen edges */
+  }
+  
+  .auth-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid var(--brand-border-color);
+    border-radius: 5px;
+    margin: 10px 0; /* Center properly */
+    width: 80%;
+    max-width: 300px;
+    text-align: center; /* Centers text in input */
+  }
+  
+  @media (max-width: 600px) {
+    .auth-input {
+      width: 90%;
+    }
+  }
+  

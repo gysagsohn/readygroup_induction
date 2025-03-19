@@ -1,35 +1,64 @@
 # Ready Group Induction
 
-## Project Overview
+## 📌 Project Overview
 This repository contains the **Ready Group Induction & Employee Handbook**, designed to serve as a structured digital resource for employees, contractors, and stakeholders. The project aims to provide an accessible, user-friendly **frontend-only** solution for handbook management, similar to AirMason.
 
-The **Ready Group Handbook** includes:
-- Company introduction, mission, and core values.
-- Services offered.
-- Employee onboarding and workplace policies.
-- Company culture, benefits, and community involvement.
-- Contact and support details.
+### **What This Handbook Includes**
+- ✅ Company introduction, mission, and core values  
+- ✅ Services offered  
+- ✅ Employee onboarding and workplace policies  
+- ✅ Company culture, benefits, and community involvement  
+- ✅ Contact and support details  
 
-## Repository Purpose
+---
+
+## 📌 Repository Purpose
 This project is designed to be an **internal handbook system**, allowing employees to easily navigate company policies, procedures, and guidelines. **It is not an open-source project**, and usage outside of Ready Group is restricted.
 
-## Features & Technical Stack
-✅ **Frontend-Only Implementation** (No Backend Yet)  
-✅ **Rich Text Editing** 
-✅ **Dynamic Page Rendering** for Handbook Sections  
-✅ **Local Storage for Content Saving**  
-✅ **Clean UI/UX with Easy Navigation**  
-✅ **Deployed on Netlify (Planned)**  
-✅ **Website can only be accessed by password**
+---
 
-## Plan
-[] Get content approved
-[] Design layout 
-[] Design approved
-[] create react app
-[] Local deployed
-[] Deployed on Netlify 
-[] Approved by management
+## 🔧 Features & Technical Stack
+- ✅ **Frontend-Only Implementation** (No Backend Yet)  
+- ✅ **React with Vite for Fast Development**  
+- ✅ **Dynamic Page Rendering for Handbook Sections**  
+- ✅ **Password-Protected Access Using Local State & Storage**  
+- ✅ **Fully Responsive Layout (Mobile-Friendly)**  
+- ✅ **CSS Modules & Flexbox for Clean, Scalable UI**  
+- ✅ **Deployed on Netlify (Planned)**  
+
+---
+
+## 🔐 Password Protection
+- 🔒 **Users must enter a password before accessing content.**
+- 🔒 **The password is stored in `localStorage` for session persistence.**
+- 🔒 **Refreshing the page logs the user out automatically.**
+- 🔒 **No backend authentication is used (client-side security only).**
+
+### 📂 **Files Handling Password Protection**
+- `ProtectedRoute.jsx` → Handles login UI and password validation.  
+- `auth.js` → Manages authentication state in `localStorage`.  
+- `App.jsx` → Checks authentication before rendering content.  
+
+---
+
+## 📂 Project Structure
+```plaintext
+src/
+│── components/
+│   ├── PrimaryButton.jsx         # Reusable button component
+│   ├── ProtectedRoute.jsx        # Handles password authentication
+│── pages/
+│   ├── Home.jsx                  # Home page content
+│── styles/
+│   ├── AuthStyles.css            # Styles for login screen
+│   ├── ButtonStyles.css          # Styles for buttons
+│   ├── Layout.css                # Global layout styles
+│── utils/
+│   ├── auth.js                   # Handles password validation logic
+│── App.jsx                        # Main App file
+│── index.css                      # Global styles
+│── main.jsx                       # React entry point
+
 
 
 

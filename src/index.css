@@ -1,11 +1,10 @@
-/* Apply Flexbox to Center Everything */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Global reset & base layout */
 html, body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--brand-background); /* Optional if using theme vars */
 }

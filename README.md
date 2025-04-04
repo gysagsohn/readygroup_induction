@@ -9,22 +9,28 @@ This repository contains the **Ready Group Induction & Employee Handbook**, desi
 - ✅ Employee onboarding and workplace policies  
 - ✅ Company culture, benefits, and community involvement  
 - ✅ Contact and support details  
+- 🔜 Will include icons for each section  
+- 🔜 Table coming to Employee Policies & Resources after deployment
 
 ---
 
-## 📌 Repository Purpose
-This project is designed to be an **internal handbook system**, allowing employees to easily navigate company policies, procedures, and guidelines. **It is not an open-source project**, and usage outside of Ready Group is restricted.
+## 📐 Figma-Based UI Design
+All sections of the website were carefully designed using **Figma** to maintain visual consistency. The layout is based on full-screen vertical scrollable sections, styled to match a clean, modern, and easy-to-navigate handbook interface.
+
+![Figma Wireframe Preview](./src/assets/Ready%20Group%20Employee%20Handbook%20-%20wireframe%20(6).png)
 
 ---
 
-## 🔧 Features & Technical Stack
-- ✅ **Frontend-Only Implementation** (No Backend Yet)  
-- ✅ **React with Vite for Fast Development**  
-- ✅ **Dynamic Page Rendering for Handbook Sections**  
-- ✅ **Password-Protected Access Using Local State & Storage**  
-- ✅ **Fully Responsive Layout (Mobile-Friendly)**  
-- ✅ **CSS Modules & Flexbox for Clean, Scalable UI**  
-- ✅ **Deployed on Netlify (Planned)**  
+## 🚀 Tech Stack
+
+| Stack | Description |
+|-------|-------------|
+| ⚛️ React + Vite | Fast front-end framework and build tool |
+| 💅 Native CSS with Flexbox | No UI libraries — clean, scalable layouts |
+| 🔐 LocalStorage Auth | Client-side password gate (no backend) |
+| 📱 Fully Responsive | Layout adapts to mobile, tablet, and desktop |
+| 🧠 Figma Design System | Components designed before coding |
+| 🚀 Netlify Deployment (Planned) | Hosting and live preview support |
 
 ---
 
@@ -47,19 +53,22 @@ src/
 │── components/
 │   ├── PrimaryButton.jsx         # Reusable button component
 │   ├── ProtectedRoute.jsx        # Handles password authentication
+│   ├── sections/
+│       └── WelcomeSection.jsx    # Welcome hero section
 │── pages/
 │   ├── Home.jsx                  # Home page content
+│   ├── HandbookPage.jsx          # Main scroll-based page
 │── styles/
 │   ├── AuthStyles.css            # Styles for login screen
 │   ├── ButtonStyles.css          # Styles for buttons
 │   ├── Layout.css                # Global layout styles
+│   ├── sections/
+│       └── WelcomeSection.css    # Hero section styling
 │── utils/
 │   ├── auth.js                   # Handles password validation logic
 │── App.jsx                        # Main App file
 │── index.css                      # Global styles
 │── main.jsx                       # React entry point
-```
-
 
 # Draft 1 of content for website
 # Welcome to Ready Group

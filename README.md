@@ -70,6 +70,8 @@ src/
 │── index.css                      # Global styles
 │── main.jsx                       # React entry point
 
+```
+
 # Draft 1 of content for website
 # Welcome to Ready Group
 

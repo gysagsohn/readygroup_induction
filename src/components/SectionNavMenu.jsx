@@ -24,6 +24,8 @@ export default function SectionNavMenu() {
           <a href="#details" onClick={handleLinkClick}>Company Details</a>
           <a href="#our-vision-section" onClick={handleLinkClick}>Vision & Mission</a>
           <a href="#our-vision" onClick={handleLinkClick}>Our Vision</a>
+          <a href="#our-mission" onClick={handleLinkClick}>Our Mission</a>
+          <a href="#our-core-vales" onClick={handleLinkClick}>Our Core Values</a>
         </nav>
       )}
     </div>

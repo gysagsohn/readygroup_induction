@@ -3,28 +3,46 @@
 ## 📌 Project Overview
 This repository contains the **Ready Group Induction & Employee Handbook**, designed to serve as a structured digital resource for employees, contractors, and stakeholders. The project aims to provide an accessible, user-friendly **frontend-only** solution for handbook management, similar to AirMason.
 
+## ✨ Current Sections Built
+
+- ✅ Welcome Section  
+- ✅ About Ready Group  
+- ✅ Who We Are  
+- ✅ Company Details  
+- ✅ Our Vision, Mission & Values (split layout)  
+- ✅ Our Core Values (Flexbox layout with 4 top / 3 bottom alignment)  
+- ✅ Scroll containment added to Core Values to prevent overflow  
+- ✅ Global Scroll Menu (`menu.svg` logo-based)  
+- ✅ Global Dropdown Menu added to top-right (active section highlight supported)
+
 ### **What This Handbook Includes**
 - ✅ Company introduction, mission, and core values  
 - ✅ Services offered  
 - ✅ Employee onboarding and workplace policies  
 - ✅ Company culture, benefits, and community involvement  
 - ✅ Contact and support details  
+- 🔜 Will include icons for each section  
+- 🔜 Table coming to Employee Policies & Resources after deployment
 
 ---
 
-## 📌 Repository Purpose
-This project is designed to be an **internal handbook system**, allowing employees to easily navigate company policies, procedures, and guidelines. **It is not an open-source project**, and usage outside of Ready Group is restricted.
+## 📐 Figma-Based UI Design
+All sections of the website were carefully designed using **Figma** to maintain visual consistency. The layout is based on full-screen vertical scrollable sections, styled to match a clean, modern, and easy-to-navigate handbook interface.
+
+![Figma Wireframe Preview](./src/assets/Ready%20Group%20Employee%20Handbook%20-%20wireframe%20(6).png)
 
 ---
 
-## 🔧 Features & Technical Stack
-- ✅ **Frontend-Only Implementation** (No Backend Yet)  
-- ✅ **React with Vite for Fast Development**  
-- ✅ **Dynamic Page Rendering for Handbook Sections**  
-- ✅ **Password-Protected Access Using Local State & Storage**  
-- ✅ **Fully Responsive Layout (Mobile-Friendly)**  
-- ✅ **CSS Modules & Flexbox for Clean, Scalable UI**  
-- ✅ **Deployed on Netlify (Planned)**  
+## 🚀 Tech Stack
+
+| Stack | Description |
+|-------|-------------|
+| ⚛️ React + Vite | Fast front-end framework and build tool |
+| 💅 Native CSS with Flexbox | No UI libraries — clean, scalable layouts |
+| 🔐 LocalStorage Auth | Client-side password gate (no backend) |
+| 📱 Fully Responsive | Layout adapts to mobile, tablet, and desktop |
+| 🧠 Figma Design System | Components designed before coding |
+| 🚀 Netlify Deployment (Planned) | Hosting and live preview support |
 
 ---
 
@@ -35,9 +53,9 @@ This project is designed to be an **internal handbook system**, allowing employe
 - 🔒 **No backend authentication is used (client-side security only).**
 
 ### 📂 **Files Handling Password Protection**
-- `ProtectedRoute.jsx` → Handles login UI and password validation.  
-- `auth.js` → Manages authentication state in `localStorage`.  
-- `App.jsx` → Checks authentication before rendering content.  
+- `ProtectedRoute.jsx` → Handles login UI and password validation  
+- `auth.js` → Manages authentication state in `localStorage`  
+- `App.jsx` → Checks authentication before rendering content  
 
 ---
 
@@ -45,21 +63,39 @@ This project is designed to be an **internal handbook system**, allowing employe
 ```plaintext
 src/
 │── components/
-│   ├── PrimaryButton.jsx         # Reusable button component
-│   ├── ProtectedRoute.jsx        # Handles password authentication
+│   ├── PrimaryButton.jsx
+│   ├── ProtectedRoute.jsx
+│   ├── SectionNavMenu.jsx
+│   ├── sections/
+│       └── WelcomeSection.jsx
+│       └── AboutSection.jsx
+│       └── WhoWeAre.jsx
+│       └── CompanyDetails.jsx
+│       └── VisionMission.jsx
+│       └── CoreValues.jsx         # New! Flexbox grid with custom layout
 │── pages/
-│   ├── Home.jsx                  # Home page content
+│   ├── Home.jsx
+│   ├── HandbookPage.jsx
 │── styles/
-│   ├── AuthStyles.css            # Styles for login screen
-│   ├── ButtonStyles.css          # Styles for buttons
-│   ├── Layout.css                # Global layout styles
+│   ├── AuthStyles.css
+│   ├── ButtonStyles.css
+│   ├── Layout.css
+│   ├── HandbookPage.css
+│   ├── sections/
+│       └── WelcomeSection.css
+│       └── AboutSection.css
+│       └── WhoWeAreSection.css
+│       └── CompanyDetails.css
+│       └── VisionMission.css
+│       └── CoreValues.css         # New! Contains scroll & grid fixes
 │── utils/
-│   ├── auth.js                   # Handles password validation logic
-│── App.jsx                        # Main App file
-│── index.css                      # Global styles
-│── main.jsx                       # React entry point
-```
+│   └── auth.js
+│── App.jsx
+│── index.css
+│── main.jsx
 
+
+```
 
 # Draft 1 of content for website
 # Welcome to Ready Group

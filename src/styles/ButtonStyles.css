@@ -12,3 +12,7 @@
     transition: background 0.3s ease;
     z-index: 1000; /* ✅ Ensure it's above everything */
 }
+
+.logout-button:hover {
+    background-color: var(--brand-hover-color);
+}

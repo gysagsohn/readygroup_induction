@@ -1,0 +1,43 @@
+.who-we-are-section {
+    background-color: #FAFAFA;
+    color: #8F2162;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    scroll-snap-align: start;
+  }
+  
+  .who-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .who-content h2 {
+    font-size: 4rem; /* Adjustable for design – can go up or down */
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .who-content p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.75;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .who-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .who-content p {
+      font-size: 1.1rem;
+    }
+  }
+  

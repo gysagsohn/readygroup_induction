@@ -1,0 +1,51 @@
+.vision-mission-split {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .vm-left-image {
+    flex: 1;
+    background-image: url("/assets/WebsitePhotos/OurVision_mission_values.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1); /* 👈 Flip the image horizontally */
+    filter: brightness(0.7); /* Slight dark overlay look */
+  }
+  
+  .vm-right-content {
+    flex: 1;
+    background-color: #902068;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .vm-right-content h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  /* 🔽 Mobile: stack layout */
+  @media (max-width: 768px) {
+    .vision-mission-split {
+      flex-direction: column;
+    }
+  
+    .vm-left-image,
+    .vm-right-content {
+      height: 50vh;
+      width: 100%;
+    }
+  
+    .vm-right-content h1 {
+      font-size: 2.5rem;
+    }
+  }
+  

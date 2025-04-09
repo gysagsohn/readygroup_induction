@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Home from "./pages/Home";
+import HandbookPage from "./pages/HandbookPage";
 import "./styles/Layout.css";
 import { isAuthenticated } from "./utils/auth";
 
@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ProtectedRoute setAuth={setAuth}><Home /></ProtectedRoute>} />
+        <Route path="/" element={<ProtectedRoute setAuth={setAuth}><HandbookPage /></ProtectedRoute>} />
     </Routes>
   );
 }

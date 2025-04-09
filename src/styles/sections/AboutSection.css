@@ -1,0 +1,40 @@
+.about-section {
+    background-image: url("/assets/WebsitePhotos/about_section.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    scroll-snap-align: start;
+  }
+  
+  .about-section .overlay {
+    font-family: 'Inter', sans-serif;
+    color: #8F2162;
+    font-weight: 700;
+    font-size: 6rem;
+    text-align: center;
+    padding: 2rem;
+  
+    background-color: rgba(255, 255, 255, 0.2); /* ✅ This matches your Figma fill: white @ 20% */
+    border-radius: 8px;
+  
+    text-shadow:
+      -1px -1px 0 rgba(255, 255, 255, 0.2),
+       1px -1px 0 rgba(255, 255, 255, 0.2),
+      -1px  1px 0 rgba(255, 255, 255, 0.2),
+       1px  1px 0 rgba(255, 255, 255, 0.2);
+  }
+  
+  /* 🔽 Mobile responsiveness */
+  @media (max-width: 768px) {
+    .about-section .overlay {
+      font-size: 2.5rem;
+      padding: 1rem;
+    }
+  }
+  

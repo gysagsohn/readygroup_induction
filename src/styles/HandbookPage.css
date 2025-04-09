@@ -13,7 +13,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
     font-size: 2rem;
     background-color: var(--brand-background);
     color: var(--brand-text-color);

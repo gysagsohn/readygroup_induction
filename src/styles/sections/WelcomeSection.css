@@ -2,6 +2,7 @@
   background-image: url("/assets/WebsitePhotos/HeroImage.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -17,7 +18,7 @@
   backdrop-filter: blur(2px);
   text-align: center;
   width: 100%;
-  max-width: 100%; /* Remove max-width limit */
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -45,7 +46,6 @@
      1px  1px 0 #000;
 }
 
-/* 🔽 Responsive layout on small screens */
 @media (max-width: 768px) {
   .welcome-overlay h1 {
     font-size: 3rem;

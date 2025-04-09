@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-/* Global reset & base layout */
-html, body {
-  height: 100%;
+/* Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body fills full space */
+html, body {
+  height: 100%;
+  width: 100%;
   font-family: 'Inter', sans-serif;
-  background-color: var(--brand-background); /* Optional if using theme vars */
+  background-color: var(--brand-background); /* optional */
 }

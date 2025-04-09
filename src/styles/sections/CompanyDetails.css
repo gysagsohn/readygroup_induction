@@ -1,0 +1,51 @@
+.company-details-section {
+  background-color: #EDEDED;
+  color: #8F2162;
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.company-details-content {
+  max-width: 800px;
+  width: 100%;
+  text-align: left;         
+  padding: 2rem;
+}
+
+.company-details-content h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.company-details-content p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;    
+}
+
+.company-details-content p strong {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .company-details-content {
+    padding: 1rem;
+  }
+
+  .company-details-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .company-details-content p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+}

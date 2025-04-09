@@ -1,20 +1,21 @@
 .scroll-container {
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-  }
-  
-  .section {
-    scroll-snap-align: start;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    background-color: var(--brand-background);
-    color: var(--brand-text-color);
-  }
-  
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  position: relative; /* Ensure children like nav-menu position relative to this */
+}
+
+.section {
+  scroll-snap-align: start;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: var(--brand-background);
+  color: var(--brand-text-color);
+  position: relative; /* Enables proper stacking/context for absolute/fixed children */
+}

@@ -1,0 +1,41 @@
+.section-nav-menu {
+    position: fixed; 
+    top: 2rem;
+    right: 2rem;
+    z-index: 999;
+  }
+  
+  .menu-icon {
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .menu-dropdown {
+    margin-top: 0.5rem;
+    background-color: #902068;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .menu-dropdown a {
+    color: white;
+    text-decoration: none;
+    margin: 0.4rem 0;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .menu-dropdown a:hover {
+    color: #ffccf2;
+  }
+  

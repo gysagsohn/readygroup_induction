@@ -3,7 +3,7 @@ import "../../styles/sections/CompanyDetails.css";
 
 export default function CompanyDetails() {
   return (
-    <section className="company-details-section">
+    <section className="company-details-section" id="details">
       <div className="company-details-content">
         <h2>Company Details</h2>
         <p><strong>Entity Name:</strong> Ready Group Pty Ltd</p>

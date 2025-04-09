@@ -3,6 +3,18 @@
 ## 📌 Project Overview
 This repository contains the **Ready Group Induction & Employee Handbook**, designed to serve as a structured digital resource for employees, contractors, and stakeholders. The project aims to provide an accessible, user-friendly **frontend-only** solution for handbook management, similar to AirMason.
 
+## ✨ Current Sections Built
+
+- ✅ Welcome Section  
+- ✅ About Ready Group  
+- ✅ Who We Are  
+- ✅ Company Details  
+- ✅ Our Vision, Mission & Values (split layout)  
+- ✅ Our Core Values (Flexbox layout with 4 top / 3 bottom alignment)  
+- ✅ Scroll containment added to Core Values to prevent overflow  
+- ✅ Global Scroll Menu (`menu.svg` logo-based)  
+- ✅ Global Dropdown Menu added to top-right (active section highlight supported)
+
 ### **What This Handbook Includes**
 - ✅ Company introduction, mission, and core values  
 - ✅ Services offered  
@@ -41,9 +53,9 @@ All sections of the website were carefully designed using **Figma** to maintain 
 - 🔒 **No backend authentication is used (client-side security only).**
 
 ### 📂 **Files Handling Password Protection**
-- `ProtectedRoute.jsx` → Handles login UI and password validation.  
-- `auth.js` → Manages authentication state in `localStorage`.  
-- `App.jsx` → Checks authentication before rendering content.  
+- `ProtectedRoute.jsx` → Handles login UI and password validation  
+- `auth.js` → Manages authentication state in `localStorage`  
+- `App.jsx` → Checks authentication before rendering content  
 
 ---
 
@@ -51,24 +63,37 @@ All sections of the website were carefully designed using **Figma** to maintain 
 ```plaintext
 src/
 │── components/
-│   ├── PrimaryButton.jsx         # Reusable button component
-│   ├── ProtectedRoute.jsx        # Handles password authentication
+│   ├── PrimaryButton.jsx
+│   ├── ProtectedRoute.jsx
+│   ├── SectionNavMenu.jsx
 │   ├── sections/
-│       └── WelcomeSection.jsx    # Welcome hero section
+│       └── WelcomeSection.jsx
+│       └── AboutSection.jsx
+│       └── WhoWeAre.jsx
+│       └── CompanyDetails.jsx
+│       └── VisionMission.jsx
+│       └── CoreValues.jsx         # New! Flexbox grid with custom layout
 │── pages/
-│   ├── Home.jsx                  # Home page content
-│   ├── HandbookPage.jsx          # Main scroll-based page
+│   ├── Home.jsx
+│   ├── HandbookPage.jsx
 │── styles/
-│   ├── AuthStyles.css            # Styles for login screen
-│   ├── ButtonStyles.css          # Styles for buttons
-│   ├── Layout.css                # Global layout styles
+│   ├── AuthStyles.css
+│   ├── ButtonStyles.css
+│   ├── Layout.css
+│   ├── HandbookPage.css
 │   ├── sections/
-│       └── WelcomeSection.css    # Hero section styling
+│       └── WelcomeSection.css
+│       └── AboutSection.css
+│       └── WhoWeAreSection.css
+│       └── CompanyDetails.css
+│       └── VisionMission.css
+│       └── CoreValues.css         # New! Contains scroll & grid fixes
 │── utils/
-│   ├── auth.js                   # Handles password validation logic
-│── App.jsx                        # Main App file
-│── index.css                      # Global styles
-│── main.jsx                       # React entry point
+│   └── auth.js
+│── App.jsx
+│── index.css
+│── main.jsx
+
 
 ```
 

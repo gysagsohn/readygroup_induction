@@ -1,0 +1,33 @@
+.our-vision-section {
+    background-color: #8F2162;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    scroll-snap-align: start;
+  }
+  
+  .our-vision-section h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .our-vision-section blockquote {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 500;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+  .our-vision-section blockquote strong {
+    font-weight: 700;
+  }
+  

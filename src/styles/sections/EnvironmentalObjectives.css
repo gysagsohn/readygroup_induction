@@ -1,0 +1,61 @@
+.environmental-objectives-section {
+    background-color: #652D52;
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 2rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .environmental-objectives-section h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+  }
+  
+  .objectives-columns {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1200px;
+    flex-wrap: wrap;
+  }
+  
+  .objectives-columns ul {
+    flex: 1;
+    min-width: 300px;
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+  }
+  
+  /* 📱 Responsive: Stack to 1 column */
+  @media (max-width: 768px) {
+    .environmental-objectives-section {
+      padding: 2rem 1rem;
+    }
+  
+    .environmental-objectives-section h2 {
+      font-size: 2rem;
+    }
+  
+    .objectives-columns {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .objectives-columns ul {
+      font-size: 1rem;
+    }
+  }
+  

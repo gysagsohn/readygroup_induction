@@ -4,11 +4,15 @@ import SectionNavMenu from "../components/SectionNavMenu";
 import AboutSection from "../components/sections/AboutSection";
 import AdditionalServices from "../components/sections/AdditionalServices";
 import CompanyDetails from "../components/sections/CompanyDetails";
+import CompanyObjectives from "../components/sections/CompanyObjectives";
 import CoreValues from "../components/sections/CoreValues";
+import EnvironmentalObjectives from "../components/sections/EnvironmentalObjectives";
+import OhsObjectives from "../components/sections/OhsObjectives";
 import OurCoreServices from "../components/sections/OurCoreServices";
 import OurMission from "../components/sections/OurMission";
 import OurServicesSection from "../components/sections/OurServicesSection";
 import OurVision from "../components/sections/OurVision";
+import QualityObjectives from "../components/sections/QualityObjectives";
 import VisionMissionIntro from "../components/sections/VisionMissionIntro";
 import WhoWeAre from "../components/sections/WhoWeAre";
 import "../styles/HandbookPage.css";
@@ -28,6 +32,10 @@ export default function HandbookPage() {
       <section className="section"><OurServicesSection /></section>
       <section className="section"><OurCoreServices /></section>
       <section className="section"><AdditionalServices /></section>
+      <section className="section"><CompanyObjectives /></section>
+      <section className="section"><QualityObjectives /></section>
+      <section className="section"><EnvironmentalObjectives /></section>
+      <section className="section"><OhsObjectives /></section>    
     </div>
   );
 }

@@ -29,6 +29,10 @@ export default function SectionNavMenu() {
           <a href="#services" onClick={handleLinkClick}>Core Services</a>
           <a href="#core-services" onClick={handleLinkClick}>Our Core Services</a>
           <a href="#additional-services" onClick={handleLinkClick}>Additional Services</a>
+          <a href="#company-objectives" onClick={handleLinkClick}>Objectives & Growth</a>
+          <a href="#quality-objectives" onClick={handleLinkClick}>Quality Objective</a>
+          <a href="#environmental-objectives" onClick={handleLinkClick}>Environmental Objective</a>
+          <a href="#ohs-objectives" onClick={handleLinkClick}>OH&S Objectives</a>
         </nav>
       )}
     </div>

@@ -28,6 +28,7 @@ export default function SectionNavMenu() {
           <a href="#core-values" onClick={handleLinkClick}>Our Core Values</a>
           <a href="#services" onClick={handleLinkClick}>Core Services</a>
           <a href="#core-services" onClick={handleLinkClick}>Our Core Services</a>
+          <a href="#additional-services" onClick={handleLinkClick}>Additional Services</a>
         </nav>
       )}
     </div>

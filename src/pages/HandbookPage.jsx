@@ -2,6 +2,7 @@ import React from "react";
 import WelcomeSection from "..//components/sections/WelcomeSection";
 import SectionNavMenu from "../components/SectionNavMenu";
 import AboutSection from "../components/sections/AboutSection";
+import AdditionalServices from "../components/sections/AdditionalServices";
 import CompanyDetails from "../components/sections/CompanyDetails";
 import CoreValues from "../components/sections/CoreValues";
 import OurCoreServices from "../components/sections/OurCoreServices";
@@ -26,6 +27,7 @@ export default function HandbookPage() {
       <section className="section"><CoreValues /></section>
       <section className="section"><OurServicesSection /></section>
       <section className="section"><OurCoreServices /></section>
+      <section className="section"><AdditionalServices /></section>
     </div>
   );
 }

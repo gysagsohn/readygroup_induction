@@ -1,4 +1,5 @@
 .our-services-section {
+  background-color: #EDEDED;
   position: relative;
   height: 100vh;
   width: 100%;
@@ -9,15 +10,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7A2151; /* Ready Group purple */
+  color: #7A2151;
   font-family: 'Inter', sans-serif;
   scroll-snap-align: start;
 }
 
 .overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2rem 3rem;
-  border-radius: 12px;
+  /* border-radius: 12px; */
   text-align: center;
+  flex-direction: column;
 }
 
 .overlay h1 {

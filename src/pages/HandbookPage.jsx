@@ -4,6 +4,7 @@ import SectionNavMenu from "../components/SectionNavMenu";
 import AboutSection from "../components/sections/AboutSection";
 import CompanyDetails from "../components/sections/CompanyDetails";
 import CoreValues from "../components/sections/CoreValues";
+import OurCoreServices from "../components/sections/OurCoreServices";
 import OurMission from "../components/sections/OurMission";
 import OurServicesSection from "../components/sections/OurServicesSection";
 import OurVision from "../components/sections/OurVision";
@@ -24,6 +25,7 @@ export default function HandbookPage() {
       <section className="section"><OurMission /></section>
       <section className="section"><CoreValues /></section>
       <section className="section"><OurServicesSection /></section>
+      <section className="section"><OurCoreServices /></section>
     </div>
   );
 }

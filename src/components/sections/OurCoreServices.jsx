@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/sections/OurCoreServices.css";
-import SectionNavMenu from "../SectionNavMenu";
 
 const services = [
   { title: "Vacuum Truck Excavation", image: "/assets/WebsitePhotos/VaccumeTruck.jpg" },
@@ -14,7 +13,6 @@ const services = [
 export default function OurCoreServices() {
   return (
     <section className="our-core-services-section" id="core-services">
-      <SectionNavMenu />
       <h1>Our Core Services</h1>
       <div className="services-grid">
         {services.map((service, index) => (

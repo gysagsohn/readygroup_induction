@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/sections/AdditionalServices.css";
-import SectionNavMenu from "../SectionNavMenu";
 
 const additionalServices = [
   { title: "CCTV", image: "/assets/WebsitePhotos/CCTV.jpeg" },
@@ -10,7 +9,6 @@ const additionalServices = [
 export default function AdditionalServices() {
   return (
     <section className="additional-services-section" id="additional-services">
-      <SectionNavMenu />
       <h1>Additional Services</h1>
       <p className="subtitle">Service provided by our trusted partners</p>
       <div className="additional-services-grid">

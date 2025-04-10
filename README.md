@@ -14,6 +14,7 @@ This repository contains the **Ready Group Induction & Employee Handbook**, desi
 - ✅ Scroll containment added to Core Values to prevent overflow  
 - ✅ Global Scroll Menu (`menu.svg` logo-based)  
 - ✅ Global Dropdown Menu added to top-right (active section highlight supported)
+- ✅ Additional Services (partner-provided offerings)
 
 ### **What This Handbook Includes**
 - ✅ Company introduction, mission, and core values  
@@ -21,6 +22,7 @@ This repository contains the **Ready Group Induction & Employee Handbook**, desi
 - ✅ Employee onboarding and workplace policies  
 - ✅ Company culture, benefits, and community involvement  
 - ✅ Contact and support details  
+- ✅ Visual display of core and additional services with images
 - 🔜 Will include icons for each section  
 - 🔜 Table coming to Employee Policies & Resources after deployment
 

@@ -22,10 +22,10 @@ export default function SectionNavMenu() {
           <a href="#about" onClick={handleLinkClick}>About</a>
           <a href="#who" onClick={handleLinkClick}>Who We Are</a>
           <a href="#details" onClick={handleLinkClick}>Company Details</a>
-          <a href="#our-vision-section" onClick={handleLinkClick}>Vision & Mission</a>
+          <a href="#vision" onClick={handleLinkClick}>Vision & Mission</a>
           <a href="#our-vision" onClick={handleLinkClick}>Our Vision</a>
           <a href="#our-mission" onClick={handleLinkClick}>Our Mission</a>
-          <a href="#our-core-vales" onClick={handleLinkClick}>Our Core Values</a>
+          <a href="#core-values" onClick={handleLinkClick}>Our Core Values</a>
           <li><a href="#services">Services</a></li>
         </nav>
       )}

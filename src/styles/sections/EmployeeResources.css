@@ -1,0 +1,98 @@
+.employee-resources-section {
+    background-color: #f5f5f5;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    padding: 6rem 2rem;
+    font-family: 'Inter', sans-serif;
+    color: #5b0f3b;
+    scroll-snap-align: start;
+  }
+  
+  .employee-resources-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    text-align: center;
+  }
+  
+  .employee-resources-container h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  .employee-resources-container .subtext {
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 3rem;
+    color: #7a2151;
+  }
+  
+  .resource-columns {
+    display: flex;
+    font-size: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .resource-card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 450px;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    border-top: 4px solid #7a2151;
+  }
+  
+  .resource-card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #5b0f3b;
+  }
+  
+  .resource-card ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .resource-card li {
+    margin-bottom: 0.6rem;
+  }
+  
+  .resource-card a {
+    color: #7a2151;
+    text-decoration: underline;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .resource-card a:hover {
+    color: #5b0f3b;
+  }
+  
+  .pdf-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+  
+  /* 📱 Mobile */
+  @media (max-width: 768px) {
+    .employee-resources-container h1 {
+      font-size: 2rem;
+    }
+  
+    .resource-columns {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

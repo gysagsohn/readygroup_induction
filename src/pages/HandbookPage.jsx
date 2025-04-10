@@ -6,6 +6,8 @@ import AdditionalServices from "../components/sections/AdditionalServices";
 import CompanyDetails from "../components/sections/CompanyDetails";
 import CompanyObjectives from "../components/sections/CompanyObjectives";
 import CoreValues from "../components/sections/CoreValues";
+import EmployeeHandbook from "../components/sections/EmployeeHandbook";
+import EmployeeResources from "../components/sections/EmployeeResources";
 import EnvironmentalObjectives from "../components/sections/EnvironmentalObjectives";
 import OhsObjectives from "../components/sections/OhsObjectives";
 import OurCoreServices from "../components/sections/OurCoreServices";
@@ -35,7 +37,9 @@ export default function HandbookPage() {
       <section className="section"><CompanyObjectives /></section>
       <section className="section"><QualityObjectives /></section>
       <section className="section"><EnvironmentalObjectives /></section>
-      <section className="section"><OhsObjectives /></section>    
+      <section className="section"><OhsObjectives /></section>
+      <section className="section"><EmployeeHandbook /></section>    
+      <section className="section"><EmployeeResources /></section>
     </div>
   );
 }

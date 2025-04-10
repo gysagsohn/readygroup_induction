@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/SectionNavMenu.css";
-import menuIcon from "/assets/WebsitePhotos/menu.svg";
+import menuIcon from "/assets/icons/menu.svg";
 
 export default function SectionNavMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +35,8 @@ export default function SectionNavMenu() {
           <a href="#ohs-objectives" onClick={handleLinkClick}>OH&S Objectives</a>
           <a href="#employee-handbook" onClick={handleLinkClick}>Employee Handbook</a>
           <a href="#employee-resources" onClick={handleLinkClick}>Employee Resources</a>     
+          <a href="#employee-benefits">Employee Benefits</a>
+          <a href="#benefits-breakdown">Benefits Breakdown</a>
         </nav>
       )}
     </div>

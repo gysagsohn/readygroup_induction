@@ -3,9 +3,11 @@ import WelcomeSection from "..//components/sections/WelcomeSection";
 import SectionNavMenu from "../components/SectionNavMenu";
 import AboutSection from "../components/sections/AboutSection";
 import AdditionalServices from "../components/sections/AdditionalServices";
+import BenefitsBreakdown from "../components/sections/BenefitsBreakdown";
 import CompanyDetails from "../components/sections/CompanyDetails";
 import CompanyObjectives from "../components/sections/CompanyObjectives";
 import CoreValues from "../components/sections/CoreValues";
+import EmployeeBenefits from "../components/sections/EmployeeBenefits";
 import EmployeeHandbook from "../components/sections/EmployeeHandbook";
 import EmployeeResources from "../components/sections/EmployeeResources";
 import EnvironmentalObjectives from "../components/sections/EnvironmentalObjectives";
@@ -40,6 +42,8 @@ export default function HandbookPage() {
       <section className="section"><OhsObjectives /></section>
       <section className="section"><EmployeeHandbook /></section>    
       <section className="section"><EmployeeResources /></section>
+      <section className="section"><EmployeeBenefits /></section>
+      <section className="section"><BenefitsBreakdown /></section>
     </div>
   );
 }

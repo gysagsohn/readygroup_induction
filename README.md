@@ -3,33 +3,44 @@
 ## 📌 Project Overview
 This repository contains the **Ready Group Induction & Employee Handbook**, designed to serve as a structured digital resource for employees, contractors, and stakeholders. The project aims to provide an accessible, user-friendly **frontend-only** solution for handbook management, similar to AirMason.
 
+---
+
 ## ✨ Current Sections Built
 
 - ✅ Welcome Section  
 - ✅ About Ready Group  
 - ✅ Who We Are  
 - ✅ Company Details  
-- ✅ Our Vision, Mission & Values (split layout)  
+- ✅ Our Vision, Mission & Values (Split layout with image + color fill)  
+- ✅ Our Vision  
+- ✅ Our Mission  
 - ✅ Our Core Values (Flexbox layout with 4 top / 3 bottom alignment)  
-- ✅ Scroll containment added to Core Values to prevent overflow  
+- ✅ Core & Additional Services with image cards  
+- ✅ Company Objectives & Growth Plans  
+- ✅ Quality, Environmental, and OH&S Objectives  
+- ✅ Employee Handbook & Workplace Policies  
+- ✅ Employee Policies & Resources (PDF format planned, placeholder links included)  
+- ✅ Employee Benefits & Perks  
+- ✅ Benefits Breakdown (2x2 grid with icons and description)  
+- ✅ Contact Us (Full-page hero with overlay)  
+- ✅ Leadership Team (2x2 layout with image, role, name, email, phone)  
 - ✅ Global Scroll Menu (`menu.svg` logo-based)  
-- ✅ Global Dropdown Menu added to top-right (active section highlight supported)
-- ✅ Additional Services (partner-provided offerings)
+- ✅ Dropdown Menu with Scroll + Outside Click + Mobile Scroll Fix
 
-### **What This Handbook Includes**
-- ✅ Company introduction, mission, and core values  
-- ✅ Services offered  
-- ✅ Employee onboarding and workplace policies  
-- ✅ Company culture, benefits, and community involvement  
-- ✅ Contact and support details  
-- ✅ Visual display of core and additional services with images
-- 🔜 Will include icons for each section  
-- 🔜 Table coming to Employee Policies & Resources after deployment
+---
+
+### 🔧 Still To Do (📌 On Trello Board)
+- ⛔ Update Hero image (someone is smoking)
+- ⛔ Change Contact Us image (some eyes closed)
+- ⛔ Add proper icons to all benefits and values
+- ⛔ Test full scroll performance and responsiveness
+- ⛔ Final polish of PDF link functionality
+- ⛔ Adjust animations or add AOS (Animate On Scroll) *[planned]*
 
 ---
 
 ## 📐 Figma-Based UI Design
-All sections of the website were carefully designed using **Figma** to maintain visual consistency. The layout is based on full-screen vertical scrollable sections, styled to match a clean, modern, and easy-to-navigate handbook interface.
+Designed in **Figma** with structured visual guides, including consistent type, colors, grid layout, and section breakdown.
 
 ![Figma Wireframe Preview](./src/assets/Ready%20Group%20Employee%20Handbook%20-%20wireframe%20(6).png)
 
@@ -49,15 +60,9 @@ All sections of the website were carefully designed using **Figma** to maintain 
 ---
 
 ## 🔐 Password Protection
-- 🔒 **Users must enter a password before accessing content.**
-- 🔒 **The password is stored in `localStorage` for session persistence.**
-- 🔒 **Refreshing the page logs the user out automatically.**
-- 🔒 **No backend authentication is used (client-side security only).**
-
-### 📂 **Files Handling Password Protection**
-- `ProtectedRoute.jsx` → Handles login UI and password validation  
-- `auth.js` → Manages authentication state in `localStorage`  
-- `App.jsx` → Checks authentication before rendering content  
+- 🔒 Password-protected with `localStorage`
+- 🔒 Logs out on refresh
+- 🔒 No backend used
 
 ---
 
@@ -69,27 +74,36 @@ src/
 │   ├── ProtectedRoute.jsx
 │   ├── SectionNavMenu.jsx
 │   ├── sections/
-│       └── WelcomeSection.jsx
-│       └── AboutSection.jsx
-│       └── WhoWeAre.jsx
-│       └── CompanyDetails.jsx
-│       └── VisionMission.jsx
-│       └── CoreValues.jsx         # New! Flexbox grid with custom layout
+│       ├── WelcomeSection.jsx
+│       ├── AboutSection.jsx
+│       ├── WhoWeAre.jsx
+│       ├── CompanyDetails.jsx
+│       ├── VisionMissionIntro.jsx
+│       ├── OurVision.jsx
+│       ├── OurMission.jsx
+│       ├── CoreValues.jsx
+│       ├── OurServicesSection.jsx
+│       ├── OurCoreServices.jsx
+│       ├── AdditionalServices.jsx
+│       ├── CompanyObjectives.jsx
+│       ├── QualityObjectives.jsx
+│       ├── EnvironmentalObjectives.jsx
+│       ├── OhsObjectives.jsx
+│       ├── EmployeeHandbook.jsx
+│       ├── EmployeeResources.jsx
+│       ├── EmployeeBenefits.jsx
+│       ├── BenefitsBreakdown.jsx
+│       ├── ContactUs.jsx
+│       └── LeadershipTeam.jsx
 │── pages/
-│   ├── Home.jsx
-│   ├── HandbookPage.jsx
+│   └── HandbookPage.jsx
 │── styles/
 │   ├── AuthStyles.css
 │   ├── ButtonStyles.css
 │   ├── Layout.css
 │   ├── HandbookPage.css
-│   ├── sections/
-│       └── WelcomeSection.css
-│       └── AboutSection.css
-│       └── WhoWeAreSection.css
-│       └── CompanyDetails.css
-│       └── VisionMission.css
-│       └── CoreValues.css         # New! Contains scroll & grid fixes
+│   └── sections/
+│       ├── (One .css file per section)
 │── utils/
 │   └── auth.js
 │── App.jsx

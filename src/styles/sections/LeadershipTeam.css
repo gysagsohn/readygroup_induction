@@ -1,0 +1,87 @@
+.leadership-section {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    width: 100%;
+    padding: 6rem 2rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #5b0f3b;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  
+  .leadership-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+  }
+  
+  .leader-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .leader-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+  }
+  
+  .leader-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  
+  .leader-image {
+    width: 100%;
+    max-width: 200px;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .leader-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    color: #5b0f3b;
+  }
+  
+  .leader-card p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .leader-card a {
+    color: #7a2151;
+    text-decoration: underline;
+  }
+  
+  .leader-card a:hover {
+    color: #5b0f3b;
+  }
+  
+  /* 📱 Responsive layout for mobile */
+  @media (max-width: 768px) {
+    .leader-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  
+    .leadership-section h1 {
+      font-size: 2rem;
+    }
+  }
+  

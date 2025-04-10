@@ -1,0 +1,36 @@
+.our-services-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("/assets/WebsitePhotos/Our_services.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7A2151; /* Ready Group purple */
+  font-family: 'Inter', sans-serif;
+  scroll-snap-align: start;
+}
+
+.overlay {
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .overlay h1 {
+    font-size: 2.5rem;
+  }
+
+  .overlay {
+    padding: 1.5rem 2rem;
+  }
+}

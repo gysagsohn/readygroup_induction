@@ -39,7 +39,11 @@ export default function LeadershipTeam() {
       <div className="leader-grid">
         {leaders.map((leader, index) => (
           <div key={index} className="leader-card">
-            <img src={leader.image} alt={leader.name} className="leader-image" />
+            <img
+              src={leader.image}
+              alt={`${leader.name}, ${leader.role}`}
+              className="leader-image"
+            />
             <h3>{leader.role}</h3>
             <p>{leader.name}</p>
             <p><a href={`tel:${leader.phone}`}>{leader.phone}</a></p>

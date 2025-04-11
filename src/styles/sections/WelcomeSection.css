@@ -12,7 +12,7 @@
 }
 
 .welcome-overlay {
-  color: #ffffff;
+  color: var(--text-light);
   font-family: 'Inter', sans-serif;
   backdrop-filter: blur(2px);
   text-align: center;

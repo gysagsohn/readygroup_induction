@@ -1,5 +1,5 @@
 .our-services-section {
-  background-color: #EDEDED;
+  background-color: var(--overlay-black);
   position: relative;
   height: 100vh;
   width: 100%;
@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7A2151;
+  color: var(--brand-purple-light);
   font-family: 'Inter', sans-serif;
   scroll-snap-align: start;
 }

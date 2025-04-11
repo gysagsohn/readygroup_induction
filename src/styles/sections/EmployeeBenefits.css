@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: var(--text-light);
     font-family: 'Inter', sans-serif;
     scroll-snap-align: start;
     padding: 2rem;
@@ -22,7 +22,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.2); /* 20% black overlay */
+    background-color: rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
   

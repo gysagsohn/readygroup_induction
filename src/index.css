@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+:root {
+  --brand-purple-dark: #5b0f3b;
+  --brand-purple-light: #902062;
+
+  --text-light: #ffffff;
+  --text-dark: #000000;
+
+  --overlay-black: rgba(0, 0, 0, 0.2); /* For image overlays */
+  --section-background-light: #f5f5f5;
+  --section-background-muted: #EDEDED;
+}
+
+
 /* Reset */
 * {
   margin: 0;

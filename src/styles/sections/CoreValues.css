@@ -1,8 +1,8 @@
 .core-values-section {
     height: 100vh;
     width: 100%;
-    background-color: #652D52;
-    color: white;
+    background-color: var(--brand-purple-dark);
+    color: var(--text-light);
     padding: 4rem 2rem 6rem 2rem;
     font-family: 'Inter', sans-serif;
     text-align: center;

@@ -1,8 +1,8 @@
 .ohs-objectives-section {
     min-height: 100vh;
     width: 100%;
-    background-color: #902062;
-    color: white;
+    background-color: var(--brand-purple-light);
+    color: var(--text-light);
     font-family: 'Inter', sans-serif;
     padding: 6rem 2rem;
     scroll-snap-align: start;

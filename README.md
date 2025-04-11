@@ -5,6 +5,10 @@ This repository contains the **Ready Group Induction & Employee Handbook**, desi
 
 ---
 
+## 📦 Version
+
+Current: `v1.1.0` (Post-layout cleanup and icon enhancements)
+
 ## ✨ Current Sections Built
 
 - ✅ Welcome Section  
@@ -26,15 +30,13 @@ This repository contains the **Ready Group Induction & Employee Handbook**, desi
 - ✅ Leadership Team (2x2 layout with image, role, name, email, phone)  
 - ✅ Global Scroll Menu (`menu.svg` logo-based)  
 - ✅ Dropdown Menu with Scroll + Outside Click + Mobile Scroll Fix
+- ✅ Add proper icons to all benefits and values
+- ✅ Final polish of PDF link functionality
 
 ---
 
 ### 🔧 Still To Do (📌 On Trello Board)
-- ⛔ Update Hero image (someone is smoking)
-- ⛔ Change Contact Us image (some eyes closed)
-- ⛔ Add proper icons to all benefits and values
 - ⛔ Test full scroll performance and responsiveness
-- ⛔ Final polish of PDF link functionality
 - ⛔ Adjust animations or add AOS (Animate On Scroll) *[planned]*
 
 ---
@@ -58,6 +60,18 @@ Designed in **Figma** with structured visual guides, including consistent type, 
 | 🚀 Netlify Deployment (Planned) | Hosting and live preview support |
 
 ---
+
+## ✅ Recent Enhancements
+
+- Improved mobile scroll stability using `min-height` and `overflow-y: auto` per section
+- Replaced emoji placeholders with Font Awesome icons across:
+  - Core Values
+  - Benefits Breakdown
+  - Employee Resources (PDFs)
+  - Leadership Team (phone and email)
+- Implemented hover lift and background zoom effects for service cards
+- Cleaned up unused layout files and consolidated CSS
+- Smoothed scroll experience across desktop and mobile with scroll snap
 
 ## 🔐 Password Protection
 
@@ -114,7 +128,6 @@ src/
 │── styles/
 │   ├── AuthStyles.css
 │   ├── ButtonStyles.css
-│   ├── Layout.css
 │   ├── HandbookPage.css
 │   └── sections/
 │       ├── (One .css file per section)

@@ -29,11 +29,18 @@
     height: 200px;
     border-radius: 12px;
     overflow: hidden;
-    background-size: cover;
+    background-size: 105%; /* 👈 Zoom base size */
     background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-size 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-6px); /* 👈 Slight lift */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* 👈 Shadow on hover */
+    background-size: 110%; /* 👈 Subtle zoom */
   }
   
   .overlay {

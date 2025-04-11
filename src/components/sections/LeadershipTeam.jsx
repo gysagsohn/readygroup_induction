@@ -1,3 +1,5 @@
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../../styles/sections/LeadershipTeam.css";
 
@@ -46,8 +48,14 @@ export default function LeadershipTeam() {
             />
             <h3>{leader.role}</h3>
             <p>{leader.name}</p>
-            <p><a href={`tel:${leader.phone}`}>{leader.phone}</a></p>
-            <p><a href={`mailto:${leader.email}`}>{leader.email}</a></p>
+            <p>
+              <FontAwesomeIcon icon={faPhone} />{" "}
+              <a href={`tel:${leader.phone}`}>{leader.phone}</a>
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faEnvelope} />{" "}
+              <a href={`mailto:${leader.email}`}>{leader.email}</a>
+            </p>
           </div>
         ))}
       </div>

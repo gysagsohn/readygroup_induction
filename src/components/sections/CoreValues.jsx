@@ -1,40 +1,50 @@
+import {
+  faArrowTrendUp,
+  faHandshake,
+  faLeaf,
+  faLightbulb,
+  faScaleBalanced,
+  faShieldHeart,
+  faThumbsUp,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../../styles/sections/CoreValues.css";
 
 const coreValues = [
   {
     title: "Integrity",
-    icon: "🛠️",
+    icon: faScaleBalanced,
     description: "Commitment to honest and ethical business practices.",
   },
   {
     title: "Reliability",
-    icon: "🛠️",
+    icon: faThumbsUp,
     description: "Consistent, high-quality service delivery.",
   },
   {
     title: "Innovation",
-    icon: "🛠️",
+    icon: faLightbulb,
     description: "Embracing cutting-edge techniques for efficiency.",
   },
   {
     title: "Safety",
-    icon: "🛠️",
+    icon: faShieldHeart,
     description: "Prioritizing worker and public safety.",
   },
   {
     title: "Environmental Stewardship",
-    icon: "🛠️",
+    icon: faLeaf,
     description: "Sustainable operations with minimal ecological impact.",
   },
   {
     title: "Continuous Improvement",
-    icon: "🛠️",
+    icon: faArrowTrendUp,
     description: "Ongoing enhancement of services and skills.",
   },
   {
     title: "Customer-Centric Approach",
-    icon: "🛠️",
+    icon: faHandshake,
     description: "Meeting and exceeding client needs.",
   },
 ];
@@ -52,8 +62,10 @@ export default function CoreValues() {
       <div className="core-values-grid">
         {coreValues.map((value, index) => (
           <div className="value-card" key={index}>
+            <div className="value-icon">
+              <FontAwesomeIcon icon={value.icon} />
+            </div>
             <h2>{value.title}</h2>
-            <div className="value-icon">{value.icon}</div>
             <p>{value.description}</p>
           </div>
         ))}

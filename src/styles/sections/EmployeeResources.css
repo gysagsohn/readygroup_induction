@@ -79,9 +79,8 @@
   }
   
   .pdf-icon {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
+    font-size: 1rem;
+    color: var(--brand-purple-light);
   }
   
   /* 📱 Mobile */

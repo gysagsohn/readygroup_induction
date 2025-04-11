@@ -1,4 +1,6 @@
 .company-details-section {
+  height: auto;
+  overflow-y: auto;
   background-color: var(--section-background-light);
   color: var(--brand-purple-light);
   font-family: 'Inter', sans-serif;

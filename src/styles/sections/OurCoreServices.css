@@ -1,5 +1,7 @@
 .our-core-services-section {
     min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
     width: 100%;
     background-color: var(--text-light);
     color: var(--brand-purple-light);

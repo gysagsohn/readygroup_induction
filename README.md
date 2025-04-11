@@ -60,9 +60,23 @@ Designed in **Figma** with structured visual guides, including consistent type, 
 ---
 
 ## 🔐 Password Protection
-- 🔒 Password-protected with `localStorage`
-- 🔒 Logs out on refresh
-- 🔒 No backend used
+
+This handbook uses a **lightweight password gate** built with `localStorage`. The purpose is to keep the content private without requiring a backend setup.
+
+### Why This Approach?
+- ⚙️ This is a **frontend-only project** — there is currently no backend infrastructure.
+- 🔒 A basic password check using `localStorage` protects the page from casual visitors.
+- 🔍 The password is stored in code for simplicity — **hashing or salting is intentionally avoided**. In this setup, hashing would give a false sense of security because the hashed value would also be visible in the frontend.
+- 🧠 We are **not using individual user accounts** or authentication tokens, as this project is designed to be accessible with a single shared password.
+- 📄 This approach keeps the codebase lean and avoids unnecessary complexity at this stage.
+
+### Future Considerations
+When a backend is introduced (e.g. with user accounts or a CMS), we plan to:
+- Replace this system with **proper server-side authentication**
+- Store user credentials securely (e.g., hashed & salted with bcrypt)
+- Implement **session-based** or **JWT-based access control**
+
+For now, this solution is scoped for internal team access only and can be upgraded easily when needed.
 
 ---
 

@@ -1,5 +1,7 @@
 .ohs-objectives-section {
     min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
     width: 100%;
     background-color: var(--brand-purple-light);
     color: var(--text-light);

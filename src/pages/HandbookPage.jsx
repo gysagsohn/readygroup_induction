@@ -25,7 +25,7 @@ import "../styles/HandbookPage.css";
 
 export default function HandbookPage() {
   return (
-    <div className="scroll-container">
+    <main className="scroll-container">
       <SectionNavMenu /> 
       <section className="section"><WelcomeSection /></section>
       <section className="section"><AboutSection /></section>
@@ -48,6 +48,6 @@ export default function HandbookPage() {
       <section className="section"><BenefitsBreakdown /></section>
       <section className="section"><ContactUs /></section>
       <section className="section"><LeadershipTeam /></section>
-    </div>
+    </main>
   );
 }

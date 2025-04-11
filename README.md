@@ -36,8 +36,6 @@ Current: `v1.1.0` (Post-layout cleanup and icon enhancements)
 ---
 
 ### 🔧 Still To Do (📌 On Trello Board)
-- ⛔ Update Hero image (someone is smoking)
-- ⛔ Change Contact Us image (some eyes closed)
 - ⛔ Test full scroll performance and responsiveness
 - ⛔ Adjust animations or add AOS (Animate On Scroll) *[planned]*
 

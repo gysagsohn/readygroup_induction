@@ -7,7 +7,7 @@
     width: 100%;
     position: relative;
     font-family: 'Inter', sans-serif;
-    color: white;
+    color: var(--text-light);
     scroll-snap-align: start;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
   .contact-us-section .overlay {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.2); /* 20% black overlay */
+    background-color: var(--overlay-black);
     z-index: 1;
   }
   

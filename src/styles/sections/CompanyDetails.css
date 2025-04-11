@@ -1,6 +1,8 @@
 .company-details-section {
-  background-color: #EDEDED;
-  color: #8F2162;
+  height: auto;
+  overflow-y: auto;
+  background-color: var(--section-background-light);
+  color: var(--brand-purple-light);
   font-family: 'Inter', sans-serif;
   height: 100vh;
   width: 100%;

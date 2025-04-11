@@ -1,6 +1,6 @@
 .who-we-are-section {
-    background-color: #FAFAFA;
-    color: #8F2162;
+    background-color: var(--section-background-ligh);
+    color: var(--brand-purple-light);
     font-family: 'Inter', sans-serif;
     height: 100vh;
     width: 100%;

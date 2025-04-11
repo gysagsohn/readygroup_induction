@@ -1,11 +1,11 @@
 .employee-resources-section {
-    background-color: #f5f5f5;
+    background-color: var(--section-background-ligh);
     height: 100vh;
     width: 100%;
     overflow-y: auto;
     padding: 6rem 2rem;
     font-family: 'Inter', sans-serif;
-    color: #5b0f3b;
+    color: var( --brand-purple-light);
     scroll-snap-align: start;
   }
   
@@ -27,7 +27,7 @@
     font-size: 1rem;
     font-style: italic;
     margin-bottom: 3rem;
-    color: #7a2151;
+    color: var(--brand-purple-light);
   }
   
   .resource-columns {
@@ -47,13 +47,13 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     text-align: left;
-    border-top: 4px solid #7a2151;
+    border-top: 4px solid var(--brand-purple-light);
   }
   
   .resource-card h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #5b0f3b;
+    color: var(--brand-purple-light);
   }
   
   .resource-card ul {
@@ -66,7 +66,7 @@
   }
   
   .resource-card a {
-    color: #7a2151;
+    color: var( --brand-purple-light);
     text-decoration: underline;
     font-size: 1rem;
     display: inline-flex;
@@ -75,13 +75,12 @@
   }
   
   .resource-card a:hover {
-    color: #5b0f3b;
+    color: var(--brand-purple-light);
   }
   
   .pdf-icon {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
+    font-size: 1rem;
+    color: var(--brand-purple-light);
   }
   
   /* 📱 Mobile */

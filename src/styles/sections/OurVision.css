@@ -1,6 +1,6 @@
 .our-vision-section {
-    background-color: #652D52;
-    color: white;
+    background-color: var(--brand-purple-dark);
+    color: var(--text-light);
     height: 100vh;
     width: 100%;
     font-family: 'Inter', sans-serif;

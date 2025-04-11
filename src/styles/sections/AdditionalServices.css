@@ -1,10 +1,13 @@
 .additional-services-section {
     min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
     width: 100%;
-    color: #5b0f3b;
+    color: var(--brand-purple-light);
     padding: 6rem 2rem 8rem 2rem;
     font-family: 'Inter', sans-serif;
     text-align: center;
+    scroll-snap-align: start;
   }
   
   .additional-services-section h1 {
@@ -15,7 +18,7 @@
   .subtitle {
     font-weight: 600;
     margin-bottom: 1.4rem;
-    color: #7a2151;
+    color: var(--brand-purple-light);
   }
   
   .additional-services-grid {
@@ -31,25 +34,31 @@
     height: 200px;
     border-radius: 12px;
     overflow: hidden;
-    background-size: cover;
+    background-size: 105%; /* 👈 Base zoom */
     background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-size 0.3s ease;
   }
   
+  .additional-service-card:hover {
+    transform: translateY(-6px); /* 👈 Lift effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* 👈 Hover shadow */
+    background-size: 110%; /* 👈 Subtle zoom on image */
+  }
   .overlay {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var( --overlay-black);
   }
   
   .service-title {
     position: relative;
-    color: white;
+    color: var(--text-light);
     font-size: 1.2rem;
     font-weight: 600;
     padding: 1rem;

@@ -1,7 +1,7 @@
 .section-nav-menu {
   position: fixed;
   top: 1rem;
-  right: 1.5rem;
+  right: 2rem;
   z-index: 1000;
 }
 
@@ -16,7 +16,7 @@
   position: absolute;
   top: 3.5rem;
   right: 0;
-  background-color: #902062;
+  background-color: var(--brand-purple-light);
   padding: 1rem 2rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -43,7 +43,7 @@
 
 /* Nav links */
 .menu-dropdown a {
-  color: white;
+  color: var(--text-light);
   text-decoration: none;
   padding: 0.4rem 0;
   font-weight: 600;

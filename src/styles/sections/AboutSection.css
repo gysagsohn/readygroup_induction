@@ -13,27 +13,26 @@
   
   .about-section .overlay {
     font-family: 'Inter', sans-serif;
-    color: var(--brand-purple-light);
+    color: var(--text-light);
     font-weight: 700;
-    font-size: 6rem;
+    font-size: 4rem;
     text-align: center;
-    padding: 2rem;
-  
-    background-color:var( --overlay-black); /* ✅ This matches your Figma fill: white @ 20% */
-    border-radius: 8px;
-  
-    text-shadow:
-      -1px -1px 0 rgba(255, 255, 255, 0.2),
-       1px -1px 0 rgba(255, 255, 255, 0.2),
-      -1px  1px 0 rgba(255, 255, 255, 0.2),
-       1px  1px 0 rgba(255, 255, 255, 0.2);
+    padding: 2rem 3rem;
+    background-color: rgba(0, 0, 0, 0.5); /* darker overlay for legibility */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .about-section .overlay:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
   }
   
-  /* 🔽 Mobile responsiveness */
   @media (max-width: 768px) {
     .about-section .overlay {
-      font-size: 2.5rem;
-      padding: 1rem;
+      font-size: 2.2rem;
+      padding: 1.5rem 1rem;
     }
   }
   

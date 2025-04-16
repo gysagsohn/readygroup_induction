@@ -21,7 +21,7 @@ Current: `v1.1.0` (Post-layout cleanup and icon enhancements)
 - ✅ Our Core Values (Flexbox layout with 4 top / 3 bottom alignment)  
 - ✅ Core & Additional Services with image cards  
 - ✅ Company Objectives & Growth Plans  
-- ✅ Quality, Environmental, and OH&S Objectives  
+- ✅ Quality, Environmental, and WH&S Objectives  
 - ✅ Employee Handbook & Workplace Policies  
 - ✅ Employee Policies & Resources (PDF format planned, placeholder links included)  
 - ✅ Employee Benefits & Perks  
@@ -217,7 +217,7 @@ add image of org chart
 - Promote environmental awareness among employees and subcontractors via regular training.  
 - Comply with all applicable environmental legislation and legal obligations.  
 
-### **OH&S Objectives**
+### **WH&S Objectives**
 - Foster a safety culture with proactive incident reporting and hazard mitigation.  
 - Encourage employee participation in risk management through consultation, education, and training.  
 - Provide adequate resources to maintain high safety standards.  
@@ -234,7 +234,7 @@ add image of org chart
 ### **Workplace Policies**
 - Quality Policy  
 - Environmental Policy  
-- Occupational Health & Safety (OH&S) Policy  
+- Occupational Health & Safety (WH&S) Policy  
 - Social Media Policy  
 - Workplace Surveillance Policy  
 - Drug & Alcohol Policy  

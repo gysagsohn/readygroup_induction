@@ -3,15 +3,10 @@ import "../../styles/sections/WelcomeSection.css";
 
 export default function WelcomeSection() {
   return (
-    <div className="welcome-section" id="welcome">
-      <div className="welcome-overlay">
-        <h1>Welcome to Ready Group</h1>
-        <p>
-          Ready Group is a leading provider of civil construction and excavation services,
-          specializing in advanced solutions for infrastructure projects. Established in 2011,
-          we are committed to delivering high-quality, reliable, and innovative services to
-          our clients across Australia.
-        </p>
+    <div className="welcome-minimal" id="welcome">
+      <div className="scroll-cue">
+        <p>Scroll to get started</p>
+        <span>↓</span>
       </div>
     </div>
   );

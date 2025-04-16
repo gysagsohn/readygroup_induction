@@ -11,7 +11,7 @@ const onboarding = [
 const policies = [
   { name: "Quality Policy", link: "/policies/Quality_Policy.pdf" },
   { name: "Environmental Policy", link: "/policies/Environmental_Policy.pdf" },
-  { name: "Occupational Health & Safety (OH&S) Policy", link: "/policies/OHS_Policy.pdf" },
+  { name: "Work Health & Safety (WHS) Policy", link: "/policies/OHS_Policy.pdf" },
   { name: "Social Media Policy", link: "/policies/Social_Media_Policy.pdf" },
   { name: "Workplace Surveillance Policy", link: "/policies/Workplace_Surveillance_Policy.pdf" },
   { name: "SWMS", link: "/policies/SWMS.pdf" },
@@ -35,7 +35,7 @@ export default function EmployeeResources() {
 
         <div className="resource-columns">
           <div className="resource-card">
-            <h3>Induction & Onboarding Process</h3>
+            <h3>Induction & Onboarding</h3>
             <ul>
               {onboarding.map((item, i) => (
                 <li key={i}>

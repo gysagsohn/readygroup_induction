@@ -60,7 +60,7 @@ export default function SectionNavMenu() {
         <a href="#company-objectives" onClick={handleLinkClick}>Objectives & Growth</a>
         <a href="#quality-objectives" onClick={handleLinkClick}>Quality Objective</a>
         <a href="#environmental-objectives" onClick={handleLinkClick}>Environmental Objective</a>
-        <a href="#ohs-objectives" onClick={handleLinkClick}>OH&S Objectives</a>
+        <a href="#ohs-objectives" onClick={handleLinkClick}>WH&S Objectives</a>
         <a href="#employee-handbook" onClick={handleLinkClick}>Employee Handbook</a>
         <a href="#employee-resources" onClick={handleLinkClick}>Employee Resources</a>
         <a href="#employee-benefits" onClick={handleLinkClick}>Employee Benefits</a>

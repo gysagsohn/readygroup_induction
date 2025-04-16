@@ -4,7 +4,7 @@ import "../../styles/sections/OhsObjectives.css";
 export default function OhsObjectives() {
   return (
     <section className="ohs-objectives-section" id="ohs-objectives">
-      <h2>OH&S Objectives</h2>
+      <h2>WH&S Objectives</h2>
       <div className="ohs-columns">
         <div className="ohs-column">
           <ul>

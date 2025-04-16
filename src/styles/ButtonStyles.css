@@ -1,18 +1,22 @@
-.logout-button {
-    position: fixed; /* ✅ Use fixed to keep it visible */
-    top: 20px;
-    right: 20px;
-    padding: 8px 15px;
-    font-size: 0.9rem;
+.primary-button {
+    background-color: var(--brand-purple-dark);
     color: white;
-    background-color: var(--brand-secondary-color);
-    border: none;
-    border-radius: 5px;
+    border: 2px solid var(--brand-purple-dark);
+    padding: 4px 10px;
+    font-size: 0.9rem;
+    border-radius: 999px;
     cursor: pointer;
-    transition: background 0.3s ease;
-    z-index: 1000; /* ✅ Ensure it's above everything */
-}
+    transition: background-color 0.15s ease, color 0.15s ease;
+    display: inline-block;
+    line-height: 1.2;
+  }
+  
+  .primary-button:hover {
+    background-color: transparent;
+    color: var(--brand-purple-dark);
+  }
 
-.logout-button:hover {
-    background-color: var(--brand-hover-color);
-}
+  .primary-button:focus-visible {
+    outline: 3px solid rgba(144, 32, 104, 0.3);
+    outline-offset: 2px;
+  }

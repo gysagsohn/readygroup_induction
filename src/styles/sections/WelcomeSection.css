@@ -1,57 +1,61 @@
-.welcome-section {
+.welcome-minimal {
   background-image: url("/assets/WebsitePhotos/HeroImage.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
   scroll-snap-align: start;
   position: relative;
-  padding: 0 4rem;
-}
-
-.welcome-overlay {
-  color: var(--text-light);
   font-family: 'Inter', sans-serif;
-  backdrop-filter: blur(2px);
+}
+
+.scroll-cue {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
+  color: white;
+  font-size: 1.25rem;
+  opacity: 0.9;
+  pointer-events: none;
+  animation: fadeIn 1s ease-in;
 }
 
-.welcome-overlay h1 {
-  font-size: 6rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  text-shadow:
-    -1px -1px 0 #000,
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
+.scroll-cue p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.7);
 }
 
-.welcome-overlay p {
-  font-size: 2rem;
-  font-weight: 400;
-  max-width: 1200px;
-  margin: 0 auto;
-  line-height: 1.75;
-  text-shadow:
-    -1px -1px 0 #000,
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
+.scroll-cue span {
+  display: block;
+  font-size: 2.5rem;
+  margin-top: 0.3rem;
+  animation: bounce 1.5s infinite;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.7);
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @media (max-width: 768px) {
-  .welcome-overlay h1 {
-    font-size: 3rem;
+  .scroll-cue p {
+    font-size: 1.1rem;
   }
-
-  .welcome-overlay p {
-    font-size: 1.2rem;
-    padding: 0 1rem;
+  .scroll-cue span {
+    font-size: 2rem;
   }
 }

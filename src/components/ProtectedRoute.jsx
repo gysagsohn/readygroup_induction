@@ -17,18 +17,27 @@ export default function ProtectedRoute({ children, setAuth }) {
   };
 
   return isAuth ? (
-    children // ✅ No need for extra div
+    children
   ) : (
     <div className="auth-container">
       <h2>Enter Password</h2>
-      <input
-        type="password"
-        placeholder="Enter password"
-        value={enteredPassword}
-        onChange={(e) => setEnteredPassword(e.target.value)}
-        className="auth-input"
-      />
-      <PrimaryButton onClick={handleLogin}>Submit</PrimaryButton>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleLogin();
+        }}
+      >
+        <input
+          type="password"
+          placeholder="Enter password"
+          value={enteredPassword}
+          onChange={(e) => setEnteredPassword(e.target.value)}
+          className="auth-input"
+        />
+        <PrimaryButton type="submit" className="login-button">
+          Login
+        </PrimaryButton>
+      </form>
     </div>
   );
 }

@@ -8,7 +8,7 @@ const leaders = [
     name: "Matthew Spaninks",
     role: "Managing Director",
     phone: "0419949739",
-    email: "M.spaninks@readygroup.au",
+    email: "m.spaninks@readygroup.au",
     image: "/assets/WebsitePhotos/matt.jpeg",
   },
   {
@@ -22,7 +22,7 @@ const leaders = [
     name: "Michael Kearney",
     role: "Operations Manager",
     phone: "0401050403",
-    email: "M.kearney@readygroup.au",
+    email: "m.kearney@readygroup.au",
     image: "/assets/WebsitePhotos/michael.jpeg",
   },
   {

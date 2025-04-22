@@ -30,7 +30,7 @@ const coreValues = [
   {
     title: "Safety",
     icon: faShieldHeart,
-    description: "Prioritizing worker and public safety.",
+    description: "Prioritising worker and public safety.",
   },
   {
     title: "Environmental Stewardship",

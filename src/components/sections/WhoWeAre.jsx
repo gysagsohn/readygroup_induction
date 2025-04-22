@@ -8,7 +8,7 @@ export default function WhoWeAre() {
         <h2>Who We Are</h2>
         <p>
           <strong>Ready Group</strong> is a leading provider of civil construction and excavation
-          services, specializing in advanced solutions for infrastructure projects. Established
+          services, specialising in advanced solutions for infrastructure projects. Established
           in 2011, we are committed to delivering high-quality, reliable, and innovative services
           to our clients across Australia.
         </p>

@@ -1,44 +1,79 @@
 .quality-objectives-section {
-    background-color: var(--brand-purple-light);
-    min-height: 100vh;
-    width: 100%;
-    padding: 6rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-    color: var( --text-light);
-    scroll-snap-align: start;
-  }
-  
-  .quality-content {
-    max-width: 900px;
-    text-align: center;
-  }
-  
+  background-color: var(--brand-purple-light); /* ✅ Purple Light */
+  min-height: 100vh;
+  width: 100%;
+  padding: 6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-light); /* ✅ Text Light (white) */
+  scroll-snap-align: start;
+}
+
+.quality-content {
+  max-width: 800px; /* slightly tighter */
+  width: 100%;
+  text-align: center;
+}
+
+.quality-content h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.objective-card {
+  background: rgba(255, 255, 255, 0.1); /* subtle white tint inside the box */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* slightly stronger white border */
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: row; /* icon + text side-by-side */
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.objective-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.15); /* hover slightly brighter */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.objective-card .icon {
+  font-size: 2rem;
+  color: var(--text-light); /* ✅ Icon same as text color (white) */
+  flex-shrink: 0; /* icon doesn't shrink on small screens */
+  margin-right: 1rem;
+}
+
+.objective-card p {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--text-light); /* ✅ Text stays white */
+  margin: 0;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
   .quality-content h2 {
-    font-size: 2.8rem;
-    font-weight: 800;
-    margin-bottom: 2rem;
+    font-size: 2rem;
   }
-  
-  .quality-content ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-    text-align: left;
-    font-size: 1.1rem;
-    line-height: 1.8;
+
+  .objective-card {
+    padding: 1.2rem 1.5rem;
   }
-  
-  /* 📱 Mobile */
-  @media (max-width: 768px) {
-    .quality-content h2 {
-      font-size: 2rem;
-    }
-  
-    .quality-content ul {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
+
+  .objective-card p {
+    font-size: 1rem;
   }
-  
+}

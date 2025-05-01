@@ -2,7 +2,7 @@ import {
   faAward,
   faBriefcase,
   faChalkboardUser,
-  faClipboardCheck,
+  faChampagneGlasses
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -20,9 +20,9 @@ const benefits = [
     icon: faBriefcase,
   },
   {
-    title: "Performance Reviews & Feedback",
-    description: "Structured assessment and improvement plans",
-    icon: faClipboardCheck,
+    title: "Social Events & Culture",
+    description: "We host two big social events and other smaller gatherings throughout the year.",
+    icon: faChampagneGlasses,
   },
   {
     title: "Work Anniversaries & Recognition",

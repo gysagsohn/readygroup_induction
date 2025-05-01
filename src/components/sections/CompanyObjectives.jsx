@@ -3,10 +3,11 @@ import "../../styles/sections/CompanyObjectives.css";
 
 export default function CompanyObjectives() {
   return (
-    <section className="company-objectives-section" id="company-objectives">
-      <div className="image-overlay">
+    <div className="company-objectives-split" id="company-objectives">
+      <div className="co-left-image" />
+      <div className="co-right-content">
         <h1>Company Objectives & Growth Plans</h1>
       </div>
-    </section>
+    </div>
   );
 }

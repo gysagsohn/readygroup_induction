@@ -65,8 +65,9 @@ export default function SectionNavMenu() {
         <a href="#employee-resources" onClick={handleLinkClick}>Employee Resources</a>
         <a href="#employee-benefits" onClick={handleLinkClick}>Employee Benefits</a>
         <a href="#benefits-breakdown" onClick={handleLinkClick}>Benefits Breakdown</a>
-        <a href="#contact-us" onClick={handleLinkClick}>Contact Us</a>
+        <a href="#meet-the-team" onClick={handleLinkClick}>Meet the Team</a>
         <a href="#leadership-team" onClick={handleLinkClick}>Leadership Team</a>
+        <a href="#confirmation" onClick={handleLinkClick}>Confirmation</a>
       </nav>
     </div>
   );

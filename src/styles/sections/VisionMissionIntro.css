@@ -17,7 +17,7 @@
   
   .vm-right-content {
     flex: 1;
-    background-color: var(--brand-purple-dark);
+    background-color: var(--brand-purple-light);
     color: var(--text-light);
     display: flex;
     justify-content: center;

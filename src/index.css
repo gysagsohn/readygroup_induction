@@ -20,7 +20,6 @@
   box-sizing: border-box;
 }
 
-/* Ensure body fills full space */
 html, body {
   height: 100%;
   width: 100%;

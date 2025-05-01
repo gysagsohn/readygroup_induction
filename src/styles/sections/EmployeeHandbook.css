@@ -1,43 +1,43 @@
 .employee-handbook-section {
-    background-color: #EDEDED;
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-image: url("/assets/WebsitePhotos/EmployeeHandbookWorkplacePolicies.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--brand-purple-light); 
-    font-family: 'Inter', sans-serif;
-    scroll-snap-align: start;
+  background-image: url("/assets/WebsitePhotos/EmployeeHandbookWorkplacePolicies.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-light); /* assumes --text-light is white */
+  font-family: 'Inter', sans-serif;
+  scroll-snap-align: start;
+  padding: 2rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Add a dark overlay across the entire section */
+.employee-handbook-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2); /* 20% black transparent overlay */
+  z-index: 1;
+}
+
+/* Text sits above the overlay */
+.employee-handbook-section h1 {
+  position: relative;
+  z-index: 2;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .employee-handbook-section h1 {
+    font-size: 2.2rem;
   }
-  
-  .overlay {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 3rem;
-    text-align: center;
-    flex-direction: column;
-  }
-  
-  .overlay h1 {
-    font-size: 3.5rem;
-    font-weight: 800;
-  }
-  
-  @media (max-width: 768px) {
-    .overlay h1 {
-      font-size: 2.2rem;
-    }
-  
-    .overlay {
-      padding: 1.5rem 2rem;
-    }
-  }
-  
+}

@@ -5,7 +5,9 @@ export default function EmployeeHandbook() {
   return (
     <section className="employee-handbook-section" id="employee-handbook">
       <div className="overlay">
-        <h1>Employee Handbook & Workplace Policies</h1>
+        <div className="blur-box">
+          <h1>Employee Handbook & Workplace Policies</h1>
+        </div>
       </div>
     </section>
   );

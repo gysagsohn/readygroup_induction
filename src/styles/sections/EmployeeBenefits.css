@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--text-light);
+    color: var(--brand-purple-light);
     font-family: 'Inter', sans-serif;
     scroll-snap-align: start;
     padding: 2rem;

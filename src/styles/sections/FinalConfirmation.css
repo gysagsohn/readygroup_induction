@@ -1,0 +1,59 @@
+.final-confirmation-section {
+    background-color: var(--brand-purple-light);
+    min-height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+  
+  .confirmation-box {
+    max-width: 700px;
+    background: var(--section-background-muted);
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-box h2 {
+    font-size: 2.5rem;
+    color: var(--brand-purple-dark);
+    margin-bottom: 1rem;
+  }
+  
+  .confirmation-box p {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    margin-bottom: 2rem;
+  }
+  
+  .confirmation-button {
+    display: inline-block;
+    background-color: var(--brand-purple-light);
+    color: white;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .confirmation-button:hover {
+    background-color: var(--brand-purple-dark);
+  }
+  
+  /* 📱 Mobile */
+  @media (max-width: 768px) {
+    .confirmation-box h2 {
+      font-size: 2rem;
+    }
+  
+    .confirmation-box p {
+      font-size: 1rem;
+    }
+  }
+  

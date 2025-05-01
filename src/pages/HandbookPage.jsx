@@ -6,13 +6,14 @@ import AdditionalServices from "../components/sections/AdditionalServices";
 import BenefitsBreakdown from "../components/sections/BenefitsBreakdown";
 import CompanyDetails from "../components/sections/CompanyDetails";
 import CompanyObjectives from "../components/sections/CompanyObjectives";
-import ContactUs from "../components/sections/ContactUs";
 import CoreValues from "../components/sections/CoreValues";
 import EmployeeBenefits from "../components/sections/EmployeeBenefits";
 import EmployeeHandbook from "../components/sections/EmployeeHandbook";
 import EmployeeResources from "../components/sections/EmployeeResources";
 import EnvironmentalObjectives from "../components/sections/EnvironmentalObjectives";
+import FinalConfirmation from "../components/sections/FinalConfirmation";
 import LeadershipTeam from "../components/sections/LeadershipTeam";
+import MeetTheTeam from "../components/sections/MeetTheTeam";
 import OhsObjectives from "../components/sections/OhsObjectives";
 import OurCoreServices from "../components/sections/OurCoreServices";
 import OurMission from "../components/sections/OurMission";
@@ -46,8 +47,9 @@ export default function HandbookPage() {
       <section className="section"><EmployeeResources /></section>
       <section className="section"><EmployeeBenefits /></section>
       <section className="section"><BenefitsBreakdown /></section>
-      <section className="section"><ContactUs /></section>
+      <section className="section"><MeetTheTeam /></section>
       <section className="section"><LeadershipTeam /></section>
+      <section className="section"><FinalConfirmation /></section>
     </main>
   );
 }

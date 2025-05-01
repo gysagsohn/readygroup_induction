@@ -9,18 +9,14 @@ const onboarding = [
 ];
 
 const policies = [
-  { name: "Quality Policy", link: "/policies/Quality_Policy.pdf" },
-  { name: "Environmental Policy", link: "/policies/Environmental_Policy.pdf" },
-  { name: "Work Health & Safety (WHS) Policy", link: "/policies/OHS_Policy.pdf" },
-  { name: "Social Media Policy", link: "/policies/Social_Media_Policy.pdf" },
-  { name: "Workplace Surveillance Policy", link: "/policies/Workplace_Surveillance_Policy.pdf" },
-  { name: "SWMS", link: "/policies/SWMS.pdf" },
-  { name: "Leave Policy", link: "/policies/Leave_Policy.pdf" },
-  { name: "Mobile Phone Policy", link: "/policies/Mobile_Phone_Policy.pdf" },
+  { name: "Anti-Harassment & Bullying Policy", link: "/policies/Anti_Harassment_&_Bullying_Policy.pdf" },
+  { name: "Company Vehicle Policy", link: "/policies/Company_Vehicle_Policy.pdf" },
   { name: "COR Policy", link: "/policies/COR_Policy.pdf" },
-  { name: "Fitness for Work Policy", link: "/policies/Fitness_for_Work_Policy.pdf" },
-  { name: "Operator Break Policy", link: "/policies/Operator_Break_Policy.pdf" },
-  /* Add fitness to work */
+  { name: "Fitness for Work Policy", link: "/policies/Fitness_For_Work_Policy.pdf" },
+  { name: "PPE Policy", link: "/policies/PPE_Policy.pdf" },
+  { name: "Social Media Policy", link: "/policies/Social_Media_Policy.pdf" },
+  { name: "Sun Safe Policy", link: "/policies/Sun_Safe_Policy.pdf" },
+  { name: "Workplace Surveillance Policy", link: "/policies/Workplace_Surveillance_Policy.pdf" },
 ];
 
 export default function EmployeeResources() {

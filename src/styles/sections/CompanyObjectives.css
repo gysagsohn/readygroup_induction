@@ -1,55 +1,51 @@
-.company-objectives-section {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-image: url("/assets/WebsitePhotos/CompanyObjectivesGrowthPlans.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-    scroll-snap-align: start;
-  }
-  
-  .image-overlay {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.company-objectives-split {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Left side image */
+.co-left-image {
+  flex: 1;
+  background-image: url("/assets/WebsitePhotos/CompanyObjectivesGrowthPlans.jpg");
+  background-size: cover;
+  background-position: center;
+  /* filter: brightness(0.7); Dark overlay */
+}
+
+/* Right side content */
+.co-right-content {
+  flex: 1;
+  background-color: var(--brand-purple-dark);
+  color: var(--text-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.co-right-content h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* 📱 Mobile: stack vertically */
+@media (max-width: 768px) {
+  .company-objectives-split {
     flex-direction: column;
-    position: relative;
   }
-  
-  .image-overlay::before {
-    content: "";
-    position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
-    background-color: var(--overlay-black);
-    z-index: 1;
+
+  .co-left-image,
+  .co-right-content {
+    height: 50vh;
+    width: 100%;
   }
-  
-  .image-overlay h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    color: var(--text-light);
-    z-index: 2;
-    padding: 0 2rem;
-    transform: translateY(-30%);
+
+  .co-right-content h1 {
+    font-size: 2.5rem;
   }
-  
-  @media (max-width: 768px) {
-    .image-overlay h1 {
-      font-size: 2rem;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .image-overlay h1 {
-      font-size: 2rem;
-      transform: translateY(-5%);
-    }
-  }
+}

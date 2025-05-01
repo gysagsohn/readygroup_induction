@@ -1,61 +1,79 @@
 .ohs-objectives-section {
-    min-height: 100vh;
-    height: auto;
-    overflow-y: auto;
-    width: 100%;
-    background-color: var(--brand-purple-light);
-    color: var(--text-light);
-    font-family: 'Inter', sans-serif;
-    padding: 6rem 2rem;
-    scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--brand-purple-light); 
+  color: var(--text-light);
+  min-height: 100vh;
+  width: 100%;
+  padding: 6rem 2rem;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.ohs-content {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.ohs-content h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.objective-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: row; /* Icon + Text side by side */
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.objective-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.objective-card .icon {
+  font-size: 2rem;
+  color: var(--text-light);
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.objective-card p {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--text-light);
+  margin: 0;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .ohs-content h2 {
+    font-size: 2rem;
   }
-  
-  .ohs-objectives-section h2 {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    text-align: center;
+
+  .objective-card {
+    padding: 1.2rem 1.5rem;
   }
-  
-  .ohs-columns {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    max-width: 1200px;
-    width: 100%;
-    flex-wrap: wrap;
+
+  .objective-card p {
+    font-size: 1rem;
   }
-  
-  .ohs-column {
-    flex: 1;
-    min-width: 300px;
-    max-width: 500px;
-  }
-  
-  .ohs-column ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-    font-size: 1.1rem;
-    line-height: 1.8;
-    text-align: left;
-  }
-  
-  /* 📱 Responsive: 1 column on small screens */
-  @media (max-width: 768px) {
-    .ohs-objectives-section h2 {
-      font-size: 2.3rem;
-    }
-  
-    .ohs-columns {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .ohs-column {
-      max-width: 100%;
-    }
-  }
-  
+}

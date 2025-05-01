@@ -1,3 +1,5 @@
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons"; // ✅ Pick your icon here
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../../styles/sections/QualityObjectives.css";
 
@@ -6,26 +8,24 @@ export default function QualityObjectives() {
     <section className="quality-objectives-section" id="quality-objectives">
       <div className="quality-content">
         <h2>Quality Objectives</h2>
-        <ul>
-          <li><strong>Provide an exceptional and reliable service</strong></li>
-          <li>
-            <strong>
-              Deliver high calibre work through dedicated and well-trained personnel, 
-              while upholding ethical standards and professionalism
-            </strong>
-          </li>
-          <li>
-            <strong>
-              Foster positive relationships with clients through effective communication 
-              and by encouraging feedback
-            </strong>
-          </li>
-          <li>
-            <strong>
-              Satisfy requirements by our clients, industry regulators and employees
-            </strong>
-          </li>
-        </ul>
+        <div className="card-grid">
+          <div className="objective-card">
+            <FontAwesomeIcon icon={faCheckCircle} className="icon" />
+            <p>Provide an exceptional and reliable service</p>
+          </div>
+          <div className="objective-card">
+            <FontAwesomeIcon icon={faCheckCircle} className="icon" />
+            <p>Deliver high calibre work through dedicated and well-trained personnel, while upholding ethical standards and professionalism</p>
+          </div>
+          <div className="objective-card">
+            <FontAwesomeIcon icon={faCheckCircle} className="icon" />
+            <p>Foster positive relationships with clients through effective communication and encouraging feedback</p>
+          </div>
+          <div className="objective-card">
+            <FontAwesomeIcon icon={faCheckCircle} className="icon" />
+            <p>Satisfy requirements by our clients, industry regulators, and employees</p>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -1,61 +1,78 @@
 .environmental-objectives-section {
-  height: 100vh; /* ✅ Fill the full screen */
-  overflow-y: auto; /* ✅ Scroll if needed */
+  background-color: var(--brand-purple-dark); /* ✅ Purple dark */
+  color: var(--text-light); /* ✅ White text */
+  min-height: 100vh;
   width: 100%;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   font-family: 'Inter', sans-serif;
-  background-color: var(--brand-purple-dark);
-  color: var(--text-light);
-  scroll-snap-align: start;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  box-sizing: border-box;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.environmental-content {
+  max-width: 1000px;
+  width: 100%;
   text-align: center;
 }
-  
-  .environmental-objectives-section h2 {
-    font-size: 2.8rem;
-    font-weight: 800;
-    margin-bottom: 3rem;
+
+.environmental-content h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.objective-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.objective-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.objective-card .icon {
+  font-size: 2rem;
+  color: var(--text-light);
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.objective-card p {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--text-light);
+  margin: 0;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .environmental-content h2 {
+    font-size: 2rem;
   }
-  
-  .objectives-columns {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    max-width: 1200px;
-    flex-wrap: wrap;
+
+  .objective-card {
+    padding: 1.2rem 1.5rem;
   }
-  
-  .objectives-columns ul {
-    flex: 1;
-    min-width: 300px;
-    list-style-type: disc;
-    padding-left: 1.5rem;
-    font-size: 1.1rem;
-    line-height: 1.8;
-    text-align: left;
+
+  .objective-card p {
+    font-size: 1rem;
   }
-  
-  /* 📱 Responsive: Stack to 1 column */
-  @media (max-width: 768px) {
-    .environmental-objectives-section {
-      padding: 2rem 1rem;
-    }
-  
-    .environmental-objectives-section h2 {
-      font-size: 2rem;
-    }
-  
-    .objectives-columns {
-      flex-direction: column;
-      gap: 2rem;
-    }
-  
-    .objectives-columns ul {
-      font-size: 1rem;
-    }
-  }
-  
+}

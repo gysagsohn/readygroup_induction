@@ -26,7 +26,7 @@ export default function EmployeeResources() {
         <h1>Employee Policies & Resources</h1>
         <p className="subtext">
           Access important documents for onboarding, workplace conduct, and compliance. <br />
-          <em>(Clicking a policy will open a PDF in a new tab once links are added.)</em>
+          <em>(Clicking a policy will open a PDF in a new tab.)</em>
         </p>
 
         <div className="resource-columns">

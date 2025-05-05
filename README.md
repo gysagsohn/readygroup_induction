@@ -7,7 +7,7 @@ This repository contains the **Ready Group Induction & Employee Handbook**, desi
 
 ## 📦 Version
 
-Current: `v1.1.0` (Post-layout cleanup and icon enhancements)
+Current: `v1.2.0` (Final layout structure, confirmation form, and handbook updates)
 
 ## ✨ Current Sections Built
 
@@ -26,12 +26,13 @@ Current: `v1.1.0` (Post-layout cleanup and icon enhancements)
 - ✅ Employee Policies & Resources (PDF format planned, placeholder links included)  
 - ✅ Employee Benefits & Perks  
 - ✅ Benefits Breakdown (2x2 grid with icons and description)  
-- ✅ Contact Us (Full-page hero with overlay)  
+- ✅ Meet the Team (Full-page hero with overlay)
 - ✅ Leadership Team (2x2 layout with image, role, name, email, phone)  
 - ✅ Global Scroll Menu (`menu.svg` logo-based)  
 - ✅ Dropdown Menu with Scroll + Outside Click + Mobile Scroll Fix
 - ✅ Add proper icons to all benefits and values
 - ✅ Final polish of PDF link functionality
+- ✅ Final Confirmation Section with checklist and digital declaration
 
 ---
 
@@ -121,8 +122,8 @@ src/
 │       ├── EmployeeResources.jsx
 │       ├── EmployeeBenefits.jsx
 │       ├── BenefitsBreakdown.jsx
-│       ├── ContactUs.jsx
-│       └── LeadershipTeam.jsx
+│       ├── MeetTheTeam.jsx
+│       ├── FinalConfirmation.jsx
 │── pages/
 │   └── HandbookPage.jsx
 │── styles/

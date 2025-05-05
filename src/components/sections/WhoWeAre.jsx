@@ -7,10 +7,7 @@ export default function WhoWeAre() {
       <div className="who-content">
         <h2>Who We Are</h2>
         <p>
-          <strong>Ready Group</strong> is a leading provider of civil construction and excavation
-          services, specialising in advanced solutions for infrastructure projects. Established
-          in 2011, we are committed to delivering high-quality, reliable, and innovative services
-          to our clients across Australia.
+        Established in 2011, Ready Group is a trusted name in civil construction and excavation, delivering high-quality and innovative solutions for infrastructure projects across the region. We are committed to providing reliable, forward-thinking services that meet the evolving needs of our clients.
         </p>
       </div>
     </div>

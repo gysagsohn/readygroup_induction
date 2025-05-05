@@ -11,8 +11,8 @@
     background-image: url("/assets/WebsitePhotos/OurVision_mission_values.jpg");
     background-size: cover;
     background-position: center;
-    transform: scaleX(-1); /* 👈 Flip the image horizontally */
-    filter: brightness(0.7); /* Slight dark overlay look */
+    /* transform: scaleX(-1); 👈 Flip the image horizontally */
+    filter: brightness(0.7); 
   }
   
   .vm-right-content {

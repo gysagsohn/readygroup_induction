@@ -12,7 +12,6 @@
   background-image: url("/assets/WebsitePhotos/CompanyObjectivesGrowthPlans.jpg");
   background-size: cover;
   background-position: center;
-  /* filter: brightness(0.7); Dark overlay */
 }
 
 /* Right side content */
@@ -33,7 +32,7 @@
   line-height: 1.2;
 }
 
-/* 📱 Mobile: stack vertically */
+/* Mobile: stack vertically */
 @media (max-width: 768px) {
   .company-objectives-split {
     flex-direction: column;

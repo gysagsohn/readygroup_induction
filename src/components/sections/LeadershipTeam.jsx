@@ -28,7 +28,7 @@ const leaders = [
   {
     name: "Katherine Burnett",
     role: "People and Compliance Manager",
-    phone: "0402343360",
+    phone: "0419267941",
     email: "k.burnett@readygroup.au",
     image: "/assets/WebsitePhotos/katherine.jpeg",
   },

@@ -1,6 +1,5 @@
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 import "../../styles/sections/EmployeeResources.css";
 
 const onboarding = [
@@ -17,6 +16,7 @@ const policies = [
   { name: "Social Media Policy", link: "/policies/Social_Media_Policy.pdf" },
   { name: "Sun Safe Policy", link: "/policies/Sun_Safe_Policy.pdf" },
   { name: "Workplace Surveillance Policy", link: "/policies/Workplace_Surveillance_Policy.pdf" },
+  { name: "NHVR Info Sheet", link: "/policies/NHVR_Info_Sheet.pdf" },
 ];
 
 export default function EmployeeResources() {

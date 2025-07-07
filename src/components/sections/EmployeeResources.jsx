@@ -17,6 +17,7 @@ const policies = [
   { name: "Sun Safe Policy", link: "/policies/Sun_Safe_Policy.pdf" },
   { name: "Workplace Surveillance Policy", link: "/policies/Workplace_Surveillance_Policy.pdf" },
   { name: "NHVR Info Sheet", link: "/policies/NHVR_Info_Sheet.pdf" },
+  { name: "Employee AI Policy", link: "/policies/Employee_AI_Policy_v1_25.pdf" },
 ];
 
 export default function EmployeeResources() {

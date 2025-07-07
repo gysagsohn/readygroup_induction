@@ -45,7 +45,6 @@ Current: `v1.2.0` (Final layout structure, confirmation form, and handbook updat
 ## 📐 Figma-Based UI Design
 Designed in **Figma** with structured visual guides, including consistent type, colors, grid layout, and section breakdown.
 
-![Figma Wireframe Preview](./src/assets/Ready%20Group%20Employee%20Handbook%20-%20wireframe%20(6).png)
 
 ---
 

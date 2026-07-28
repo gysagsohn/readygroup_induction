@@ -28,14 +28,17 @@ export default function OhsObjectives() {
           <div className="objective-card">
             <FontAwesomeIcon icon={faShieldAlt} className="icon" />
             <p>
-              Promote environmental awareness among employees and subcontractors via regular training
+              Provide adequate resources, training, plant and personal protective equipment,
+              supported by competent supervision, to maintain high safety standards across
+              every site we work on
             </p>
           </div>
           <div className="objective-card">
             <FontAwesomeIcon icon={faShieldAlt} className="icon" />
             <p>
-              Comply with all applicable environmental legislation, regulations, legal obligations, and
-              other requirements to ensure risks to the environment are identified, assessed, and appropriately controlled
+              Comply with the WHS Act 2011, WHS Regulations 2025 and the relevant SafeWork NSW
+              Codes of Practice, ensuring workplace health and safety risks are identified,
+              assessed and appropriately controlled
             </p>
           </div>
         </div>

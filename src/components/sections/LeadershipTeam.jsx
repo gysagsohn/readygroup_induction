@@ -30,7 +30,7 @@ const leaders = [
     role: "People and Compliance Manager",
     phone: "0419267941",
     email: "k.burnett@readygroup.au",
-    image: "/assets/WebsitePhotos/katherine.jpeg",
+    image: "/assets/WebsitePhotos/Katherine.jpeg",
   },
 ];
 

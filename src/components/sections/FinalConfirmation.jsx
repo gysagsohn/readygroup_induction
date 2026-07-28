@@ -8,7 +8,7 @@ export default function FinalConfirmation() {
         <h2>You're all set!</h2>
         <p>
           Please confirm that you’ve read and understood the content of this site.
-          If you have any questions, refer to the <a href="#meet-the-team">Meet the Team</a> section or contact your manager or HR.
+          If you have any questions, refer to the <a href="#meet-the-team">Meet the Team</a> section or contact your manager or The People and Compliance Manager.
         </p>
         <a
           className="confirmation-button"
